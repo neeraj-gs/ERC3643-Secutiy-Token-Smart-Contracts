@@ -1,0 +1,38 @@
+{
+  "tokenAddress": "0x2C787056dd1050B5fe33Df48DF42A3d4b809c352",
+  "tokenSymbol": "SECTOK",
+  "totalDistributed": "2500",
+  "distributionCount": 4,
+  "timestamp": "2025-07-27T19:48:19.495Z",
+  "network": "sepolia",
+  "distributions": [
+    {
+      "investorAddress": "0xb55BA95B9ac5De59e1c4C1c1d0AAb0dAB80942B4",
+      "investorRole": "investor1_alice",
+      "amountMinted": "1000",
+      "transactionHash": "0x93871d560e0683a390678e9612624c2f8d1185b5069fdda4a1c706d4854e53a8",
+      "timestamp": "2025-07-27T19:47:38.291Z"
+    },
+    {
+      "investorAddress": "0x3dc0198ca9B9945ede1159A53F6731292cC0FbbD",
+      "investorRole": "investor2_bob",
+      "amountMinted": "750",
+      "transactionHash": "0x7b2e7304cef44fe5f6ed748c8d38cdfda6a6ad2a43ed608a0e3d4085518023ca",
+      "timestamp": "2025-07-27T19:47:51.666Z"
+    },
+    {
+      "investorAddress": "0xcF4c4CC2c31858bC10AEab7d15be5F9870d1319A",
+      "investorRole": "investor3_charlie",
+      "amountMinted": "500",
+      "transactionHash": "0x825078d4028fc17a2c4a0d60341ed65df1112b1691fb9b490b75b623b54ec31b",
+      "timestamp": "2025-07-27T19:48:05.066Z"
+    },
+    {
+      "investorAddress": "0x3aA8A98ff710107F49aDE152C438156e0F441ece",
+      "investorRole": "investor4_david",
+      "amountMinted": "250",
+      "transactionHash": "0x0fce8ef6c67d70df1d902dae2fa1480c42e53481e6030e2df0d8baab7392caa8",
+      "timestamp": "2025-07-27T19:48:18.495Z"
+    }
+  ]
+}

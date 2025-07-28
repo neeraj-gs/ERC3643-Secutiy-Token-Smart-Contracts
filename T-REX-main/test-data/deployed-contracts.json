@@ -1,0 +1,32 @@
+{
+  "network": "sepolia",
+  "deploymentTime": "2025-07-27T19:36:32.305Z",
+  "claimTopicsRegistryImplementation": "0x006E54bD26eC221eB5236610CA22889eA7B10Cf8",
+  "trustedIssuersRegistryImplementation": "0x2A69889815600C614E74bCaFEe3442997d76e9e8",
+  "identityRegistryStorageImplementation": "0xEb2C67E0A32176370C0Ef32F914Ec302B583041B",
+  "identityRegistryImplementation": "0xBae1Ea1977D76c9e0B3bEcBc4b1060801B0B8608",
+  "modularComplianceImplementation": "0x54BC0e4FDA68f52f90794dF8f07eF758c3571791",
+  "tokenImplementation": "0x2EEc509F0987CfBbEB7D663D6D2ca888A2d16841",
+  "identityImplementation": "0xA58b4E22A85f067891DB9386853bBfa759BFF87a",
+  "identityImplementationAuthority": "0xB202B20664B056a203f4f3dC3581F1Ad14F8A501",
+  "trexImplementationAuthority": "0x209D95Ce9D8C3Bb89C7Ec1eA0C0ac92A2DCfc707",
+  "identityFactory": "0xE80101DEAEdE16aDFBc033B21A85579632cEF361",
+  "trexFactory": "0xa39cf3010C13b0b9Ddee8722e48103E5Abd6ad44",
+  "tokenOnchainID": "0xD4a7B79F7888CcA2Fca08851aca220C2936e3C1D",
+  "claimIssuerContract": "0xD114f945615A9C7504AE87804370cf459580302E",
+  "token": "0x2C787056dd1050B5fe33Df48DF42A3d4b809c352",
+  "identityRegistry": "0xB633Fb8866B2befde2CaA98Bd7695ECb6b266595",
+  "identityRegistryStorage": "0x88CfB3B6E1c47995580bCe3f5045C9EaD6836cF4",
+  "trustedIssuersRegistry": "0xEf5A36DB20efDb7BC1DEB7411f978a165bE29893",
+  "claimTopicsRegistry": "0x1B8100f882CA2592b6b2dDaD93850bcf9C8c98f0",
+  "compliance": "0x71Ea5d7CBAacFb8f4c139D70913802FA31a5C1Ed",
+  "tokenDetails": {
+    "name": "Security Token Example",
+    "symbol": "SECTOK",
+    "decimals": 18,
+    "totalSupply": "0"
+  },
+  "claimTopics": [
+    "0x6def3dd4b4c20aeb2df7976119029aa0e2f66598b64e287aaed2434dcc89a1e6"
+  ]
+}

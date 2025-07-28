@@ -1,0 +1,59 @@
+{
+  "timestamp": "2025-07-27T19:52:10.832Z",
+  "network": "sepolia",
+  "tokenAddress": "0x2C787056dd1050B5fe33Df48DF42A3d4b809c352",
+  "totalTests": 5,
+  "passedTests": 5,
+  "failedTests": 0,
+  "successRate": 100,
+  "tests": [
+    {
+      "testName": "Valid transfer between KYC users",
+      "fromRole": "investor1_alice",
+      "toRole": "investor2_bob",
+      "amount": "50",
+      "expectedResult": "SUCCESS",
+      "actualResult": "SUCCESS",
+      "transactionHash": "0xd560c5265d8ce53905e06157511faafe9b44851ae8ce06f85a1bc4f5042f9a83",
+      "gasUsed": "221243"
+    },
+    {
+      "testName": "Valid transfer from Bob back to Alice",
+      "fromRole": "investor2_bob",
+      "toRole": "investor1_alice",
+      "amount": "25",
+      "expectedResult": "SUCCESS",
+      "actualResult": "SUCCESS",
+      "transactionHash": "0x15180e1b78da45d290e47cfa687c2eab3faeb9d448c47f5fe3269b31a6e3d3ac",
+      "gasUsed": "221243"
+    },
+    {
+      "testName": "Transfer to non-KYC user (should fail)",
+      "fromRole": "investor1_alice",
+      "toRole": "regularUser1",
+      "amount": "10",
+      "expectedResult": "FAIL",
+      "actualResult": "FAIL",
+      "errorMessage": "insufficient funds for intrinsic transaction cost"
+    },
+    {
+      "testName": "Transfer from non-KYC user (should fail)",
+      "fromRole": "regularUser1",
+      "toRole": "investor2_bob",
+      "amount": "5",
+      "expectedResult": "FAIL",
+      "actualResult": "FAIL",
+      "errorMessage": "insufficient funds for intrinsic transaction cost"
+    },
+    {
+      "testName": "Large transfer between KYC users",
+      "fromRole": "investor3_charlie",
+      "toRole": "investor4_david",
+      "amount": "100",
+      "expectedResult": "SUCCESS",
+      "actualResult": "SUCCESS",
+      "transactionHash": "0x159f4ca887f7ae7d13b84283048477ba000122f55a6ef4e94f900e07edeef3be",
+      "gasUsed": "221243"
+    }
+  ]
+}

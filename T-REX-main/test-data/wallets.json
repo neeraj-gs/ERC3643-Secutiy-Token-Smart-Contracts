@@ -1,0 +1,62 @@
+[
+  {
+    "role": "deployer",
+    "address": "0x38498f498f8679c1f43A08891192e2F5e728a1bB",
+    "privateKey": "FROM_ENV_FILE",
+    "mnemonic": "N/A - Custom Address"
+  },
+  {
+    "role": "tokenIssuer",
+    "address": "0x2FC924d45C190FE7f26081BC381b7eB4a007cD67",
+    "privateKey": "0xb3ba7fdc84cac755ae91cfa4a57ff1da88baab60e018b35502418546fd482380",
+    "mnemonic": "front scheme post thumb scrap actress milk moon mean history melody oven"
+  },
+  {
+    "role": "tokenAgent",
+    "address": "0x05a6126924DE15Cf933FAa048A853B8369287536",
+    "privateKey": "0x7f6c0434d4d4507a24028b4f0716a69bb1df503729cb6ce4069636677e562029",
+    "mnemonic": "pride wealth surge orbit clap abuse satisfy world bacon bulb glide initial"
+  },
+  {
+    "role": "claimIssuer",
+    "address": "0xef114d2B57a63bA19E8E5dcE035E70dEe7feE8eE",
+    "privateKey": "0x430ff0c90dd541edfd14384172e34a47d93f423df56b3d1fee1d95e7268aade8",
+    "mnemonic": "ethics enough crystal carpet task crisp divide denial decorate funny history crunch"
+  },
+  {
+    "role": "investor1_alice",
+    "address": "0xb55BA95B9ac5De59e1c4C1c1d0AAb0dAB80942B4",
+    "privateKey": "0x96a09a49415861a0bea4cf2e40dadc4fab01c9bb1dcdd3b111800391bcb9422a",
+    "mnemonic": "wolf mimic skill bleak shield primary seminar digital inform planet wait charge"
+  },
+  {
+    "role": "investor2_bob",
+    "address": "0x3dc0198ca9B9945ede1159A53F6731292cC0FbbD",
+    "privateKey": "0x1e6a4be53cc3efbfcc46708f6490de8b8180f9f49015d953e15208f8009875f0",
+    "mnemonic": "leisure inspire blade cool execute armed city tip ghost split anchor genre"
+  },
+  {
+    "role": "investor3_charlie",
+    "address": "0xcF4c4CC2c31858bC10AEab7d15be5F9870d1319A",
+    "privateKey": "0xe4817c780098b45a69ec80b2012c1158c4f641fa5ca1619110d8dbe46c69dc72",
+    "mnemonic": "school scissors year ball regular strategy useless bus soon jacket defy spend"
+  },
+  {
+    "role": "investor4_david",
+    "address": "0x3aA8A98ff710107F49aDE152C438156e0F441ece",
+    "privateKey": "0x241642d9776cfb9a4331f580327bd9d488d811b43bebe9bb80626af7d422dfdf",
+    "mnemonic": "degree conduct barely feature document agent sock wash glory exit pause mosquito"
+  },
+  {
+    "role": "regularUser1",
+    "address": "0xf5D23466f51351685F54A23aF6a06850b059800C",
+    "privateKey": "0x345f8f5264f2137c4e3da631f18a1b09669627ca788a011e740712aae6dac327",
+    "mnemonic": "clutch piece afford later wedding lesson dutch boy group wire iron matrix"
+  },
+  {
+    "role": "regularUser2",
+    "address": "0x65E27Fafa6F1F5B2cd0e71b767DCdF85A1e21Ba9",
+    "privateKey": "0x9b22491565bc244983c760e332f9525d504198268a4cc57a402de72832ae423e",
+    "mnemonic": "other sniff clever topple position length regular adult rhythm expand endless unaware"
+  }
+]
